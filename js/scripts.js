@@ -1,8 +1,9 @@
 // global variables
+//Going for meets expectations
 const userURL = 'https://randomuser.me/api/?results=12&nat=US';
 let searchDiv = document.querySelector('.search-container');
 let galleryDiv = document.getElementById('gallery');
-let users = []; // contains data of users obtained from fetch
+let userData = []; 
 
 /**
  * sends a single request to the API and uses the response 
